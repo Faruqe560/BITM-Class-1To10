@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <LINK rel="stylesheet" href="css/bootstrap.css">
+    <LINK rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-secondary">
+
+<div class="jumbotron mb-0">
+    <div class="container">
+        <h1>Some content gose here about something</h1>
+        <p>Some content gose here about somethingSome. content gose here about something</p>
+
+
+    </div>
+</div>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top ">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="images/rahmat.jpg" alt="" style="height: 30px;/">
+        </a>
+        <button type="button" class="navbar-toggler" data-target="#mainMenu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+    <ul class="navbar-nav mr-auto">
+        <li><a href="" class="nav-link">HOME</a></li>
+        <li><a href="" class="nav-link">About</a></li>
+        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a >
+            <ul class="dropdown-menu bg-primary">
+                <li><a href="" class="nav-link">Service-one</a></li>
+                <li><a href="" class="nav-link">Service-Two</a></li>
+                <li><a href="" class="nav-link">Service</a></li>
+            </ul>
+
+        </li>
+        <li><a href="" class="nav-link">Galary</a ></li>
+    </ul>
+    <ul class="navbar-nav">
+
+        <li><a href="" class="nav-link" data-toggle="modal" data-target="#loginModal">Log-in</a></li>
+        <li><a href="" class="nav-link" data-toggle="modal" data-target="#singUpModal">Sing-up</a></li>
+    </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="mainSlider" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <ol class="carousel-indicators">
+        <li data-target="#mainSlider" data-slide-to="0"  ></li>
+        <li data-target="#mainSlider" data-slide-to="1" class="active" ></li>
+        <li data-target="#mainSlider" data-slide-to="2" ></li>
+        <li data-target="#mainSlider" data-slide-to="3" ></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item">
+            <img src="images/nt-1.jpg" class="w-100 " height="350"/>
+            <div class="carousel-caption">
+                <h3>Some content goes here</h3>
+                <p>some content gose here</p>
+            </div>
+        </div>
+        <div class="carousel-item active">
+            <img src="images/nt-2.jpg" class="w-100 " height="350"/>
+            <div class="carousel-caption">
+                <h3>Some content goes here</h3>
+                <p>some content gose here</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/nt-3.jpg" class="w-100 " height="350"/>
+            <div class="carousel-caption">
+                <h3>Some content goes here</h3>
+                <p>some content gose here</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/nt-4.jpg" class="w-100 " height="350"/>
+            <div class="carousel-caption">
+                <h3>Some content goes here</h3>
+                <p>some content gose here</p>
+            </div>
+        </div>
+    </div>
+    <a href="#mainSlider" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#mainSlider" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon-icon"></span>
+    </a>
+</div>
+
+
+<div class="container">
+    <div  class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3>This is header card</h3>
+                </div>
+                <div class="card-body">
+                    <p>This is body card</p>
+                    <p>This is body card</p>
+                    <p>This is body card</p>
+                </div>
+                <div class="card-footer">
+                    <p>This is footer card</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+<!--            <button type="button" data-toggle="modal" data-target="#modal" class="btn btn-success">Click</button>-->
+
+
+            <div class="modal fade" id="loginModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Log-in Form</h3>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &Cross;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" method="">
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-3">Email Address</label>
+                                <div class="col-sm-9">
+                                    <input type="email" name="EmailAddress" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-3">Password</label>
+                                <div class="col-sm-9">
+                                    <input type="number" name="Password" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-3"></label>
+                                <div class="col-sm-9">
+                                    <input type="button" name="btn" class="btn btn-success btn-block" value="Submit">
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Clolse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="singUpModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Sing-Up Form</h3>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &Cross;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" method="">
+                                <div class="form-group row">
+                                    <label class="col-form-label col-sm-3">Email Address</label>
+                                    <div class="col-sm-9">
+                                        <input type="email" name="EmailAddress" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-form-label col-sm-3">Password</label>
+                                    <div class="col-sm-9">
+                                        <input type="number" name="Password" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-form-label col-sm-3"></label>
+                                    <div class="col-sm-9">
+                                        <input type="button" name="btn" class="btn btn-success btn-block" value="Submit">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class=" btn btn-warning" data-dismiss="modal">Clolse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="js/Jquery.js"></script>
+<script src="js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

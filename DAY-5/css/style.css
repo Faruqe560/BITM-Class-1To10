@@ -1,0 +1,122 @@
+*{box-sizing: border-box}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+[class*='col-']{
+    float: left;
+    border: 1px solid;
+   }
+
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.wrapper{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header-height{height: 200px;}
+.menu-height{height: 50px;}
+.content-height{height: 1000px;}
+.big-footer-height{height: 250px}
+.footer-height{height: 40px;}
+
+.main-ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.main-ul li{
+    float: left;
+    width: 120px;
+    border: 1px solid grey;
+
+}
+
+.main-ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 47px;
+    padding: 10px;
+    background-color: black;
+    color: wheat;
+    transition: 1.50s;
+
+}
+
+.main-ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.div-one{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    margin: 10px 0 0 10px;
+    border-radius: 100px ;
+    float: left;
+}
+
+.div-two{
+    height: 200px;
+    width: 200px;
+     background:linear-gradient(#e3bcff,wheat,blue,#e3bcff);
+    margin: 10px 0 0 10px;
+    border-radius: 100px 100px 100px 5px ;
+    float: left;
+}
+
+.div-three{
+    height: 100px;
+    width: 200px;
+    background-color: chartreuse;
+    margin: 10px 0 0 10px;
+    border-radius: 100px ;
+    float: left;
+}
+
+.div-four{
+    height: 100px;
+    width: 200px;
+    background-color: chartreuse;
+    margin: 10px 0 0 10px;
+    border-radius: 100px 100px 0px 0px ;
+    float: left;
+}
+.div-fiv{
+    height:200px;
+    width: 20px;
+    background-color: chartreuse;
+    margin: 50px 0 0 200px;
+    float: left;
+    transform: skew(-30deg);
+}
+.div-six{
+    height:200px;
+    width: 20px;
+    background-color: chartreuse;
+    margin: 50px 0 0 100px;
+    float: left;
+    transform: skew(30deg);
+}
+.div-one:hover{
+    transform: scale(1.5);
+}
